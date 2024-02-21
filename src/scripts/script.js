@@ -70,5 +70,9 @@ function exibirDataHorario() {
     saudacao = "Boa noite";
   }
 
+   if (hora < 10) {
+     hora = "0" + hora 
+   }
+
   document.querySelector(".greeting").innerHTML = saudacao + `, agora são ${hora} horas`;
 }
