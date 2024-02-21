@@ -10,13 +10,13 @@
 ![tablet-spotify](https://github.com/marostegaf/Spotify/assets/103620713/6e2dde87-e88d-454d-9c6e-203b70a0e5d7)
 
 ## 🧑🏻‍💻 Tecnologias
-#### Esse projeto foi desenvolvido durante a Imersão Front-End proporcionada pela plataforma Alura
+#### Esse projeto foi desenvolvido durante a Imersão Front-End proporcionada pela plataforma Alura!
 - HTML
 - CSS
 - JavaScript
 - Node.js
   
 ## 💻 Projeto
-Disponível em: 🔗[Em breve...]()
+Disponível em: 🔗[Spotify, clique aqui!](https://spotify-mm.vercel.app/)
 
 
