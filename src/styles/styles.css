@@ -14,26 +14,26 @@ body {
 
 .playlist-container::-webkit-scrollbar-track {
   background-color: #121212; /* Cor da trilha */
-  margin: 15px auto;
+  margin: 0.938rem auto;
 }
 
 .playlist-container::-webkit-scrollbar-thumb {
-  background-color: #ffffff; /* Cor da "thumb" */
-  border-radius: 10px; /* Borda arredondada da "thumb" */
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
 .playlist-container::-webkit-scrollbar {
-  width: 5px; /* Largura do scrollbar */
+  width: 5px;
   min-height: 1px;
 }
 
 ::-webkit-scrollbar {
-  width: 0px; /* Largura do scrollbar */
+  width: 0px;
 }
 
 /* HEADER */
 header {
-  width: calc(100vw - 300px);
+  width: calc(100vw - 18.75rem);
   margin-left: 295px;
   overflow-x: hidden;
 }
@@ -44,22 +44,22 @@ header {
   justify-content: space-between;
   background-color: #121212;
   border-radius: 8px;
-  padding: 16px;
-  margin: 10px;
+  padding: 1rem;
+  margin: 0.625rem;
 }
 
 .header-arrows {
   display: flex;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .header-search {
   display: flex;
   align-items: center;
-  gap: 15px;
-  width: 364px;
+  gap: 0.938rem;
+  width: 22.75rem;
   background-color: #242424;
-  height: 48px;
+  height: 3rem;
   border-radius: 25px;
 }
 
@@ -70,19 +70,19 @@ header {
   overflow: hidden;
   outline: none;
   white-space: nowrap;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: 500;
   color: #ffffff;
 }
 
 .header-search img {
-  width: 20px;
-  margin-left: 15px;
+  width: 1.25rem;
+  margin-left: 0.938rem;
 }
 
 .header-btn {
   display: flex;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .subscribe {
@@ -92,7 +92,7 @@ header {
 
 .subscribe a {
   transition: 0.8s;
-  font-size: 17px;
+  font-size: 1.063rem;
   font-weight: 700;
   color: #b3b3b3;
 }
@@ -103,14 +103,14 @@ header {
 }
 
 .login {
-  padding: 15px 30px;
+  padding: 0.938rem 1.875rem;
   border: none;
   border-radius: 25px;
 }
 
 .login a {
   color: #000000;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
 }
 
@@ -123,20 +123,20 @@ header {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
-  padding: 10px 10px;
-  height: calc(100vh - 205px);
+  width: 18.75rem;
+  padding: 0.625rem 0.625rem;
+  height: calc(100vh - 12.813rem);
   /* border: 1px solid blue; */
 }
 
 .sidebar-navigation {
   background-color: #121212;
-  padding: 16px 0 0 20px;
+  padding: 1rem 0 0 1.25rem;
   border-radius: 8px;
 }
 
 .sidebar-navigation img {
-  width: 80px;
+  width: 5rem;
 }
 
 .sidebar-navigation ul {
@@ -149,11 +149,11 @@ header {
   display: flex;
   text-align: center;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   color: #b3b3b3;
-  font-size: 17px;
+  font-size: 1.063rem;
   font-weight: 600;
-  padding: 12px 0;
+  padding: 0.75rem 0;
 }
 
 .sidebar-navigation li a:hover {
@@ -163,15 +163,15 @@ header {
 
 .library {
   background-color: #121212;
-  margin-top: 15px;
+  margin-top: 0.938rem;
   border-radius: 8px;
-  height: calc(100vh - 234px)
+  height: calc(100vh - 14.625rem)
 }
 
 .library-content {
   display: flex;
   justify-content: space-between;
-  padding: 20px 20px;
+  padding: 1.25rem 1.25rem;
 }
 
 .library-content button {
@@ -182,10 +182,10 @@ header {
 .library-content button a {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   color: #b3b3b3;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 1.063rem;
 }
 
 .library-content button a:hover {
@@ -196,7 +196,7 @@ header {
 .plus a {
   display: flex;
   align-items: center;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 900;
   color: #b3b3b3;
 }
@@ -207,59 +207,59 @@ header {
 }
 
 .playlist-container {
-  height: 190px;
+  height: 11.875rem;
   overflow-y: scroll;
 }
 
 .criar-playlist {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  margin: 15px;
-  padding: 15px;
-  border-radius: 8px;
+  gap: 1.25rem;
+  margin: 0.938rem;
+  padding: 0.938rem;
+  border-radius: 0.5rem;
   background-color: #242424;
 }
 
 .criar-playlist-textos {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
   color: #ffffff;
 }
 
 .criar-playlist-textos h1 {
-  font-size: 17px;
+  font-size: 1.063rem;
   font-weight: 700;
 }
 
 .criar-playlist-textos p {
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 
 .criar-playlist-botao {
   background-color: #ffffff;
   border-radius: 25px;
   border: none;
-  width: 130px;
-  padding: 10px 10px;
-  margin-top: 15px;
+  width: 8.125rem;
+  padding: 0.625rem 0.625rem;
+  margin-top: 0.938rem;
 }
 
 .criar-playlist-botao a {
   color: #000000;
-  font-size: 17px;
+  font-size: 1.063rem;
   font-weight: 700;
 }
 
 #explorar {
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: 600;
 }
 
 .cookies {
-  padding: 20px 20px 15px;
-  max-height: 200px;
+  padding: 1.25rem 1.25rem 0.938rem;
+  max-height: 12.5rem;
   overflow-y: auto;
 }
 
@@ -271,9 +271,9 @@ header {
 .cookies ul li a {
     color: #b3b3b3;
     font-weight: 500;
-    font-size: 11px;
+    font-size: 0.688rem;
     text-decoration: none;
-    padding: 0px 5px;
+    padding: 0rem 0.313rem;
     white-space: nowrap
 }
 
@@ -281,16 +281,16 @@ header {
   background-color: transparent;
   border: 1px solid #b3b3b3;
   border-radius: 25px;
-  padding: 10px 15px;
-  margin-left: 12px;
+  padding: 0.625rem 0.938rem;
+  margin-left: 0.75rem;
 }
 
 .language-button a {
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 0.438rem;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: 700;
 }
 
@@ -298,12 +298,12 @@ header {
 
 /* MAIN */
 main {
-  height: calc(100vh - 182px);
-  width: calc(100vw - 320px);
+  height: calc(100vh - 11.375rem);
+  width: calc(100vw - 20rem);
   background-color: #121212;
-  margin-left: 304px;
+  margin-left: 19rem;
   border-radius: 8px;
-  margin-top: 5px;
+  margin-top: 0.313rem;
   overflow-y: hidden;
 }
 
@@ -313,22 +313,22 @@ main {
 }
 
 .welcome-main h1 {
-  margin: 20px 20px 0;
-  font-size: 28px;
+  margin: 1.25rem 1.25rem 0;
+  font-size: 1.75rem;
   font-weight: 600;
   color: #ffffff;
 }
 
 .welcome-main h2 {
-  margin: 0 20px 10px;
-  font-size: 24px;
+  margin: 0 1.25rem 0.625rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #ffffff;
 }
 
 .cards-artists-container {
   overflow-y: scroll;
-  height: calc(100vh - 290px);
+  height: calc(100vh - 18.125rem);
   width: 100%;
 }
 
@@ -336,8 +336,8 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 10px 20px;
-  gap: 40px;
+  margin: 0.625rem 1.25rem;
+  gap: 2.5rem;
 }
 
 #cards-container div {
@@ -433,7 +433,7 @@ main {
 }
 
 .grid-container {
-  width: 200px;
+  width: 12.5rem;
 }
 
 .artist-card {
@@ -442,7 +442,7 @@ main {
   -ms-flex: 1;
   flex: 1;
   isolation: isolate;
-  padding: 16px;
+  padding: 1rem;
   position: relative;
   transition: background-color 0.3s ease;
   width: 100%;
@@ -456,7 +456,7 @@ main {
   padding-bottom: 100%;
   position: relative;
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .artist-img {
@@ -475,7 +475,7 @@ main {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  min-height: 62px;
+  min-height: 3.875rem;
 }
 
 .card-text a {
@@ -487,9 +487,9 @@ main {
 .artist-name {
   box-sizing: border-box;
   margin-block: 0px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
-  padding-block-end: 8px;
+  padding-block-end: 0.5rem;
 }
 
 .artist-categorie {
@@ -504,12 +504,12 @@ main {
 
 .play .playicon {
   position: absolute;
-  right: 10px;
-  top: 30px;
-  padding: 15px;
+  right: 0.625rem;
+  top: 1.875rem;
+  padding: 0.938rem;
   background-color: #1db954;
   border-radius: 100%;
-  font-size: 15px;
+  font-size: 0.938rem;
   opacity: 0;
   transition: all ease 0.4s;
 }
@@ -520,12 +520,12 @@ main {
 }
 
 .play .playicon:hover {
-  padding: 17px;
+  padding: 1.063rem;
   cursor: pointer;
 }
 
 #result-artist {
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
 }
 /* FIM DA MAIN */
 
@@ -537,8 +537,8 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 70px;
-  padding: 10px 40px;
+  height: 4.375rem;
+  padding: 0.625rem 2.5rem;
   background: linear-gradient(to right, #0004ff, #9900ff, #ff00d4);
 }
 
@@ -549,26 +549,26 @@ footer {
 }
 
 footer h1 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 footer p {
-  font-size: 17px;
+  font-size: 1.063rem;
   font-weight: 500;
 }
 
 footer button {
-  padding: 14px 30px;
-  border-radius: 40px;
+  padding: 0.875rem 1.875rem;
+  border-radius: 2.5rem;
   border: none;
 }
 
 footer button a {
   color: #000000;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 1.063rem;
 }
 
 /* FIM FOOTER */
@@ -577,7 +577,7 @@ footer button a {
 .sidebar-navigation li a ion-icon,
 .library-content button a ion-icon,
 .language-button a ion-icon {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .login:hover,
